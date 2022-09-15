@@ -1,0 +1,911 @@
+.body{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+@media only screen and (min-width:480px){
+    .title{
+        padding: 54px 32px 0px 36.8px;
+        display: flex;
+    }
+    .title .logo{
+        margin-right: 12.8px;
+        width: full;
+    }
+    .navbar-fixed{
+        z-index: 99999;
+    }
+    .menu-icon{
+        position: absolute;
+        right: 36.8px;
+        cursor: pointer;
+    }
+    .menu-icon .burger{
+        position: absolute;
+        right: 2px;
+        cursor: pointer;
+    }
+    .menu-icon ul{
+        visibility: hidden;
+    }
+    .menu-icon .btn{
+        visibility: hidden;
+
+    }
+    .bg-mobile{
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }
+    .bg-mobile .hp{
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }
+    .bg-mobile .tablet-hp{
+        visibility: hidden;
+    }
+    .hero-content{
+        padding: 47.8px 32px 0px 32px;
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-content h1{
+        font-size: 48px;
+        font-weight: bold;
+        line-height: 56px;
+        vertical-align: top;
+        float: left;
+        letter-spacing: -0.5px;
+    }
+    .hero-content h5{
+        font-size: small;
+        font-size: 16px;
+        line-height: 28px;
+        float: left;
+        vertical-align: top;
+        color: #606060;
+    }
+    .hero-content .btn{
+        width: 160px;
+        height: 56px;
+        background-color: #5468E7;
+        color: white;
+        fill: solid;
+        border: none;
+        border-radius: 10px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .hero-content .scrolldown-content{
+        visibility: hidden;
+    }
+    .wall{
+        position: absolute;
+        right: 0px;
+        top: 448.77px;
+        width: 440px;
+        /* height: 363.51px; */
+    }
+    .wall-big{
+        visibility: hidden;
+    }
+
+    /* page two */
+    /* .about{
+        background-color: #232340;
+        position: absolute;
+        height: 100hv;
+        top: 1050px;
+    } */
+}
+
+@media only screen and (min-width:921px){
+    .title{
+        padding: 54px 32px 0px 36.8px;
+        display: flex;
+    }
+    .title .logo{
+        margin-right: 12.8px;
+        width: full;
+    }
+    .menu-icon .burger{
+        visibility: hidden;
+    }
+    .menu-icon ul{
+        visibility: visible;
+        list-style: none;
+        display: flex;
+        margin-right: 220px;
+        margin-top: 6px;
+    }
+    .menu-icon li{
+        margin-right: 50px; 
+        font-size: 18px;
+        line-height: 24px;
+        align-items: center;
+        vertical-align: top;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .menu-icon li a{
+        text-decoration: none;
+        color: black;
+    }
+    .menu-icon .btn{
+        visibility: visible;
+        position: absolute;
+        top: -15px;
+        right: 0px;
+        width: 180px;
+        height: 64px;
+        border-radius: 8px;
+        background-color: #232340;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .bg-mobile{
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }
+    .bg-mobile .hp{
+        visibility: hidden;
+    }
+    .bg-mobile .tablet-hp{
+        visibility: visible;
+    }
+    .hero-content{
+        padding: 47.8px 32px 0px 32px;
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-content h1{
+        font-size: 48px;
+        font-weight: bold;
+        line-height: 56px;
+        vertical-align: top;
+        float: left;
+        letter-spacing: -0.5px;
+    }
+    .hero-content h5{
+        font-size: small;
+        font-size: 16px;
+        line-height: 28px;
+        float: left;
+        vertical-align: top;
+        color: #606060;
+    }
+    .hero-content .btn{
+        width: 160px;
+        height: 56px;
+        background-color: #5468E7;
+        color: white;
+        fill: solid;
+        border: none;
+        border-radius: 10px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .wall{
+        position: absolute;
+        right: 0px;
+        top: 448.77px;
+        width: 440px;
+        /* height: 363.51px; */
+    }
+    .wall-big{
+        visibility: hidden;
+    }
+    .hero-content .scrolldown-content{
+        visibility: hidden;
+    }
+    
+}
+
+@media only screen and (min-width:1060px){
+    .title{
+        padding: 54px 32px 0px 36.8px;
+        display: flex;
+    }
+    .title .logo{
+        margin-right: 12.8px;
+        width: full;
+    }
+    .menu-icon .burger{
+        visibility: hidden;
+    }
+    .menu-icon ul{
+        visibility: visible;
+        list-style: none;
+        display: flex;
+        margin-right: 320px;
+        margin-top: 6px;
+    }
+    .menu-icon li{
+        margin-right: 50px; 
+        font-size: 18px;
+        line-height: 24px;
+        align-items: center;
+        vertical-align: top;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .menu-icon li a{
+        text-decoration: none;
+        color: black;
+    }
+    .menu-icon .btn{
+        visibility: visible;
+        position: absolute;
+        top: -15px;
+        right: 0px;
+        width: 180px;
+        height: 64px;
+        border-radius: 8px;
+        background-color: #232340;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .bg-mobile{
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }
+    .bg-mobile .hp{
+        visibility: hidden;
+    }
+    .bg-mobile .tablet-hp{
+        visibility: visible;
+    }
+    .hero-content{
+        padding: 47.8px 32px 0px 144px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+    }
+    .hero-content h1{
+        font-size: 84px;
+        font-weight: bold;
+        line-height: 100%;
+        vertical-align: top;
+        float: left;
+        letter-spacing: -0.5px;
+    }
+    .hero-content h5{
+        font-size: 18px;
+        line-height: 32px;
+        align-items: left;
+        font-weight: 400;
+        vertical-align: top;
+        color: #606060;
+    }
+    .hero-content .btn{
+        width: 160px;
+        height: 56px;
+        background-color: #5468E7;
+        color: white;
+        fill: solid;
+        border: none;
+        border-radius: 10px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .wall{
+        position: absolute;
+        right: 0px;
+        top: 448.77px;
+        width: 440px;
+        /* height: 363.51px; */
+    }
+    .wall-big{
+        visibility: hidden;
+    }   
+    .hero-content .scrolldown-content{
+        visibility: hidden;
+    }
+}
+
+@media only screen and (min-width:1200px){
+    .title{
+        padding: 54px 32px 0px 36.8px;
+        display: flex;
+    }
+    .title .logo{
+        margin-right: 12.8px;
+        width: full;
+    }
+    .menu-icon .burger{
+        visibility: hidden;
+    }
+    .menu-icon ul{
+        visibility: visible;
+        list-style: none;
+        display: flex;
+        margin-right: 420px;
+        margin-top: 6px;
+    }
+    .menu-icon li{
+        margin-right: 50px; 
+        font-size: 18px;
+        line-height: 24px;
+        align-items: center;
+        vertical-align: top;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .menu-icon li a{
+        text-decoration: none;
+        color: black;
+    }
+    .menu-icon .btn{
+        visibility: visible;
+        position: absolute;
+        top: -15px;
+        right: 0px;
+        width: 180px;
+        height: 64px;
+        border-radius: 8px;
+        background-color: #232340;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .bg-mobile{
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }
+    .bg-mobile .hp{
+        visibility: hidden;
+    }
+    .bg-mobile .tablet-hp{
+        visibility: visible;
+        position: absolute;
+        right: 400px;
+    }
+    .hero-content{
+        padding: 47.8px 32px 0px 144px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+    }
+    .hero-content h1{
+        font-size: 84px;
+        font-weight: bold;
+        line-height: 100%;
+        vertical-align: top;
+        float: left;
+        letter-spacing: -0.5px;
+    }
+    .hero-content h5{
+        font-size: 18px;
+        line-height: 32px;
+        align-items: left;
+        font-weight: 400;
+        vertical-align: top;
+        color: #606060;
+    }
+    .hero-content .btn{
+        width: 160px;
+        height: 56px;
+        background-color: #5468E7;
+        color: white;
+        fill: solid;
+        border: none;
+        border-radius: 10px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .wall{
+        visibility: hidden;
+    }      
+    .wall-big{
+        visibility: visible;
+        position: absolute;
+        right: 0px;
+        top: 222px;
+    }
+    .hero-content .scrolldown-content{
+        visibility: visible;
+        display: flex;
+        margin-top: 110px;
+        cursor: pointer;
+    }
+    .hero-content .scrolldown-content .scroll{
+        width: 50px;
+        height: 50px;
+    }
+    .hero-content .scrolldown-content h5{
+        margin: 12px 0px 0px 16px;
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 600;
+        color: #8B8B8B;
+    }
+}
+
+@media only screen and (min-width:1300px){
+    .title{
+        padding: 54px 32px 0px 36.8px;
+        display: flex;
+    }
+    .title .logo{
+        margin-right: 12.8px;
+        width: full;
+    }
+    .menu-icon .burger{
+        visibility: hidden;
+    }
+    .menu-icon ul{
+        visibility: visible;
+        list-style: none;
+        display: flex;
+        margin-right: 450px;
+        margin-top: 6px;
+    }
+    .menu-icon li{
+        margin-right: 50px; 
+        font-size: 18px;
+        line-height: 24px;
+        align-items: center;
+        vertical-align: top;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .menu-icon li a{
+        text-decoration: none;
+        color: black;
+    }
+    .menu-icon .btn{
+        visibility: visible;
+        position: absolute;
+        top: -15px;
+        right: 0px;
+        width: 180px;
+        height: 64px;
+        border-radius: 8px;
+        background-color: #232340;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .bg-mobile{
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }
+    .bg-mobile .hp{
+        visibility: hidden;
+    }
+    .bg-mobile .tablet-hp{
+        visibility: visible;
+        position: absolute;
+        right: 400px;
+    }
+    .hero-content{
+        padding: 47.8px 32px 0px 144px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+    }
+    .hero-content h1{
+        font-size: 84px;
+        font-weight: bold;
+        line-height: 100%;
+        vertical-align: top;
+        float: left;
+        letter-spacing: -0.5px;
+    }
+    .hero-content h5{
+        font-size: 18px;
+        line-height: 32px;
+        align-items: left;
+        font-weight: 400;
+        vertical-align: top;
+        color: #606060;
+    }
+    .hero-content .btn{
+        width: 160px;
+        height: 56px;
+        background-color: #5468E7;
+        color: white;
+        fill: solid;
+        border: none;
+        border-radius: 10px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .wall{
+        visibility: hidden;
+    }      
+    .wall-big{
+        visibility: visible;
+        position: absolute;
+        right: 0px;
+        top: 222px;
+    }
+    .hero-content .scrolldown-content{
+        visibility: visible;
+        display: flex;
+        margin-top: 110px;
+        cursor: pointer;
+    }
+    .hero-content .scrolldown-content .scroll{
+        width: 50px;
+        height: 50px;
+    }
+    .hero-content .scrolldown-content h5{
+        margin: 12px 0px 0px 16px;
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 600;
+        color: #8B8B8B;
+    }
+
+}
+
+@media only screen and (min-width:1400px){
+    .title{
+        padding: 54px 32px 0px 36.8px;
+        display: flex;
+    }
+    .title .logo{
+        margin-right: 12.8px;
+        width: full;
+    }
+    .menu-icon .burger{
+        visibility: hidden;
+    }
+    .menu-icon ul{
+        visibility: visible;
+        list-style: none;
+        display: flex;
+        margin-right: 490px;
+        margin-top: 6px;
+    }
+    .menu-icon li{
+        margin-right: 50px; 
+        font-size: 18px;
+        line-height: 24px;
+        align-items: center;
+        vertical-align: top;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .menu-icon li a{
+        text-decoration: none;
+        color: black;
+    }
+    .menu-icon .btn{
+        visibility: visible;
+        position: absolute;
+        top: -15px;
+        right: 0px;
+        width: 180px;
+        height: 64px;
+        border-radius: 8px;
+        background-color: #232340;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .bg-mobile{
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }
+    .bg-mobile .hp{
+        visibility: hidden;
+    }
+    .bg-mobile .tablet-hp{
+        visibility: visible;
+        position: absolute;
+        right: 400px;
+    }
+    .hero-content{
+        padding: 47.8px 32px 0px 144px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+    }
+    .hero-content h1{
+        font-size: 84px;
+        font-weight: bold;
+        line-height: 100%;
+        vertical-align: top;
+        float: left;
+        letter-spacing: -0.5px;
+    }
+    .hero-content h5{
+        font-size: 18px;
+        line-height: 32px;
+        align-items: left;
+        font-weight: 400;
+        vertical-align: top;
+        color: #606060;
+    }
+    .hero-content .btn{
+        width: 160px;
+        height: 56px;
+        background-color: #5468E7;
+        color: white;
+        fill: solid;
+        border: none;
+        border-radius: 10px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .wall{
+        visibility: hidden;
+    }      
+    .wall-big{
+        visibility: visible;
+        position: absolute;
+        right: 0px;
+        top: 222px;
+    }
+    .hero-content .scrolldown-content{
+        visibility: visible;
+        display: flex;
+        margin-top: 110px;
+        cursor: pointer;
+    }
+    .hero-content .scrolldown-content .scroll{
+        width: 50px;
+        height: 50px;
+    }
+    .hero-content .scrolldown-content h5{
+        margin: 12px 0px 0px 16px;
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 600;
+        color: #8B8B8B;
+    }
+
+}
+
+@media only screen and (min-width:1500px){
+    .title{
+        padding: 54px 32px 0px 36.8px;
+        display: flex;
+    }
+    .title .logo{
+        margin-right: 12.8px;
+        width: full;
+    }
+    .menu-icon .burger{
+        visibility: hidden;
+    }
+    .menu-icon ul{
+        visibility: visible;
+        list-style: none;
+        display: flex;
+        margin-right: 540px;
+        margin-top: 6px;
+    }
+    .menu-icon li{
+        margin-right: 50px; 
+        font-size: 18px;
+        line-height: 24px;
+        align-items: center;
+        vertical-align: top;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .menu-icon li a{
+        text-decoration: none;
+        color: black;
+    }
+    .menu-icon .btn{
+        visibility: visible;
+        position: absolute;
+        top: -15px;
+        right: 0px;
+        width: 180px;
+        height: 64px;
+        border-radius: 8px;
+        background-color: #232340;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .bg-mobile{
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }
+    .bg-mobile .hp{
+        visibility: hidden;
+    }
+    .bg-mobile .tablet-hp{
+        visibility: visible;
+        position: absolute;
+        right: 400px;
+    }
+    .hero-content{
+        padding: 47.8px 32px 0px 144px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+    }
+    .hero-content h1{
+        font-size: 84px;
+        font-weight: bold;
+        line-height: 100%;
+        vertical-align: top;
+        float: left;
+        letter-spacing: -0.5px;
+    }
+    .hero-content h5{
+        font-size: 18px;
+        line-height: 32px;
+        align-items: left;
+        font-weight: 400;
+        vertical-align: top;
+        color: #606060;
+    }
+    .hero-content .btn{
+        width: 160px;
+        height: 56px;
+        background-color: #5468E7;
+        color: white;
+        fill: solid;
+        border: none;
+        border-radius: 10px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .wall{
+        visibility: hidden;
+    }      
+    .wall-big{
+        visibility: visible;
+        position: absolute;
+        right: 0px;
+        top: 222px;
+    }
+    .hero-content .scrolldown-content{
+        visibility: visible;
+        display: flex;
+        margin-top: 110px;
+        cursor: pointer;
+    }
+    .hero-content .scrolldown-content .scroll{
+        width: 50px;
+        height: 50px;
+    }
+    .hero-content .scrolldown-content h5{
+        margin: 12px 0px 0px 16px;
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 600;
+        color: #8B8B8B;
+    }
+
+}
+
+@media only screen and (min-width:1600px){
+    .title{
+        padding: 54px 32px 0px 36.8px;
+        display: flex;
+    }
+    .title .logo{
+        margin-right: 12.8px;
+        width: full;
+    }
+    .menu-icon .burger{
+        visibility: hidden;
+    }
+    .menu-icon ul{
+        visibility: visible;
+        list-style: none;
+        display: flex;
+        justify-content: center; 
+       margin-right: 700px;
+        margin-top: 6px; 
+        align-items: center;
+        flex: 1;
+    }
+    .menu-icon li{
+        margin-right: 50px; 
+        font-size: 18px;
+        line-height: 24px;
+        align-items: center;
+        vertical-align: top;
+        font-weight: 600;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .menu-icon li a{
+        text-decoration: none;
+        color: black;
+    }
+    .menu-icon .btn{
+        visibility: visible;
+        position: absolute;
+        top: -15px;
+        right: 0px;
+        width: 180px;
+        height: 64px;
+        border-radius: 8px;
+        background-color: #232340;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .bg-mobile{
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }
+    .bg-mobile .hp{
+        visibility: hidden;
+    }
+    .bg-mobile .tablet-hp{
+        visibility: visible;
+        position: absolute;
+        right: 400px;
+    }
+    .hero-content{
+        padding: 47.8px 32px 0px 144px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+    }
+    .hero-content h1{
+        font-size: 84px;
+        font-weight: bold;
+        line-height: 100%;
+        vertical-align: top;
+        float: left;
+        letter-spacing: -0.5px;
+    }
+    .hero-content h5{
+        font-size: 18px;
+        line-height: 32px;
+        align-items: left;
+        font-weight: 400;
+        vertical-align: top;
+        color: #606060;
+    }
+    .hero-content .btn{
+        width: 160px;
+        height: 56px;
+        background-color: #5468E7;
+        color: white;
+        fill: solid;
+        border: none;
+        border-radius: 10px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .wall{
+        visibility: hidden;
+    }      
+    .wall-big{
+        visibility: visible;
+        position: absolute;
+        right: 0px;
+        top: 222px;
+    }
+    .hero-content .scrolldown-content{
+        visibility: visible;
+        display: flex;
+        margin-top: 110px;
+        cursor: pointer;
+    }
+    .hero-content .scrolldown-content .scroll{
+        width: 50px;
+        height: 50px;
+    }
+    .hero-content .scrolldown-content h5{
+        margin: 12px 0px 0px 16px;
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 600;
+        color: #8B8B8B;
+    }
+
+}
