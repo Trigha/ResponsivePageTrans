@@ -40,6 +40,7 @@
         position: absolute;
         right: 0px;
         top: 0px;
+        
     }
     .bg-mobile .tablet-hp{
         visibility: hidden;
@@ -83,20 +84,119 @@
         position: absolute;
         right: 0px;
         top: 448.77px;
-        width: 440px;
+        width: 1/2;
+        
         /* height: 363.51px; */
     }
     .wall-big{
         visibility: hidden;
+        overflow-x: hidden;
+        width: 0px;
+        height: 0px;
     }
 
     /* page two */
-    /* .about{
+    .about{
+        position: absolute;
+        left: 0px;
+        right: 0px;
         background-color: #232340;
         position: absolute;
-        height: 100hv;
+        height: 1681px;
         top: 1050px;
-    } */
+        width: full;
+    }
+    .content-2{
+        display: flex;
+        flex-direction: column;
+        padding: 64px 32px 0px 33px;
+    }
+    .title-2{
+        display: flex;
+        flex-direction: row;
+    }
+    .title-2 h5{
+        margin-right: 28px;
+        color: #ADADAD;
+        font-size: 20px;
+        line-height: 18px;
+        margin-top: 27px;
+    }
+    .title-2 h4{
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 18px;
+        /* font-weight: bold; */
+        color: #FFFFFF;
+    }
+    .content-2 h1{
+        font-size: 58px;
+        line-height: 48px;
+        letter-spacing: -0.4px;
+        font-weight: 700;
+        font-weight: bold;
+        color: white;
+    }
+    .option{
+        padding-top: 49px;
+        display: flex;
+        flex-direction: row;
+    }
+    .arrow-right {
+        transform: rotate(180deg);
+        margin-left: 44px;
+        margin-right: 68px;
+        /* width: 1/2; */
+    }
+    .image-2{
+        position: absolute;
+        width: 96vw;
+        left: 0px;
+        top: 580px;
+    }
+   
+    .title-h3{
+        position: absolute;
+        top: 1150px;
+        font-size: 32px;
+        line-height: 32px;
+        color: white;
+        font-weight: bold;
+        letter-spacing: 1px;
+        text-align: left;
+    }
+    
+    .sub-h3{
+        position: absolute;
+        top: 1330px;
+        font-size: 218x;
+        line-height: 32px;
+        color: #8B8B8B;
+        font-weight: bold;
+        letter-spacing: 1px;
+        text-align: left;
+    }
+    .contact-us{
+        background-color: #5468E7;
+        color: white;
+        border-radius: 8px;
+        width: 168px;
+        height: 56px;
+        border: none;
+        position: absolute;
+        top: 1510px;
+    }
+    .bg-number{
+        position: absolute;
+        top: 1680px;
+        left: 0px;
+        background-color: #232340;
+        width: 96.5vw;
+    }
+    #bg-number{
+        margin-left: 50px;
+    }
+     
 }
 
 @media only screen and (min-width:921px){
@@ -196,6 +296,9 @@
     }
     .wall-big{
         visibility: hidden;
+        overflow-x: hidden;
+        width: 0px;
+        height: 0px;
     }
     .hero-content .scrolldown-content{
         visibility: hidden;
@@ -301,7 +404,10 @@
     }
     .wall-big{
         visibility: hidden;
-    }   
+        overflow-x: hidden;
+        width: 0px;
+        height: 0px;
+    }  
     .hero-content .scrolldown-content{
         visibility: hidden;
     }
@@ -406,6 +512,8 @@
         position: absolute;
         right: 0px;
         top: 222px;
+        width: auto;
+        height: auto;
     }
     .hero-content .scrolldown-content{
         visibility: visible;
@@ -523,8 +631,10 @@
     .wall-big{
         visibility: visible;
         position: absolute;
-        right: 0px;
+        right: 50px;
         top: 222px;
+        width: auto;
+        height: auto;
     }
     .hero-content .scrolldown-content{
         visibility: visible;
@@ -643,8 +753,10 @@
     .wall-big{
         visibility: visible;
         position: absolute;
-        right: 0px;
+        right: 80px;
         top: 222px;
+        width: auto;
+        height: auto;
     }
     .hero-content .scrolldown-content{
         visibility: visible;
@@ -763,8 +875,10 @@
     .wall-big{
         visibility: visible;
         position: absolute;
-        right: 0px;
+        right: 100px;
         top: 222px;
+        width: auto;
+        height: auto;
     }
     .hero-content .scrolldown-content{
         visibility: visible;
@@ -887,8 +1001,10 @@
     .wall-big{
         visibility: visible;
         position: absolute;
-        right: 0px;
+        right: 130px;
         top: 222px;
+        width: auto;
+        height: auto;
     }
     .hero-content .scrolldown-content{
         visibility: visible;
